@@ -64,4 +64,4 @@ def isAbundant(num):
         if num % i == 0:
             sum += i
     ret_val = sum_ > num
-    return ret_valz
+    return ret_val
