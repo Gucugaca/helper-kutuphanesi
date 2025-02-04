@@ -41,8 +41,7 @@ def getint(prompt):
                 print("Bu bir tam sayıdır")
                 ret_val = int(num)
                 break
-    return ret_val
-
+    return ret_val 
 def isHarshad(num):
     ret_val = True
 
@@ -57,3 +56,12 @@ def isHarshad(num):
     else:
         ret_val = False
     return ret_val
+
+def isAbundant(num):
+    ret_val = sum_ > num ,
+    sum_ = 0
+    for i in range(1, int(num/2)+1):
+        if num % i == 0:
+            sum += i
+    ret_val = sum_ > num
+    return ret_valz
